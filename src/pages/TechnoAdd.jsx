@@ -11,12 +11,16 @@ export default function TechnoAdd(props) {
   
   function handleSubmit(evt) {
     evt.preventDefault();
-    handleAddTechno(techno);
-    setTechno({
-      technoname: '',
-      technocategory: '',
-      technodescription: ''
-    });
+    if(techno.technoname === '' || techno.technocategory === '' || techno.technodescription ==='') { 
+      alert("Remplisez tout les champs")
+    } else {
+      handleAddTechno(techno);
+      setTechno({
+        technoname: '',
+        technocategory: '',
+        technodescription: ''
+      });
+    }
   }
 
   function handleChange(evt) {
