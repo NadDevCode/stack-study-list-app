@@ -55,7 +55,7 @@ StackStudyList est une application Web dédiée à la gestion de tâches (to-do 
 
 **Affichage des cartes de tâches par filtre :**
 
-- Cette fonctionnalité permettra d'afficher les cartes de tâches en fonction de différents critères, tels que le langage ou le type de stack. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
+- Cette fonctionnalité permettra d'afficher les cartes de tâches en fonction de différents critères,<br>tels que le langage ou le type de stack. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
 
 <br>
 
