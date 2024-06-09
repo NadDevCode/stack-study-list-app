@@ -61,13 +61,13 @@ StackStudyList est une application Web dédiée à la gestion de tâches (to-do 
 
 **Ajout d'un système de recherche :**
 
-- Cette fonctionnalité permettra aux utilisateurs de rechercher des tâches spécifiques en fonction de mots-clés. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
+- Cette fonctionnalité permettra aux utilisateurs de rechercher des tâches spécifiques<br>en fonction de mots-clés. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
 
 <br>
 
 **Modification de l'ordre des cartes par un élément HTML 'select' ou en utilisant le drag-and-drop :**
 
-- Les utilisateurs pourront réorganiser les cartes de tâches en les déplaçant manuellement ou en utilisant un élément de sélection HTML<br>pour choisir l'ordre souhaité. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
+- Les utilisateurs pourront réorganiser les cartes de tâches en les déplaçant manuellement ou en utilisant un élément de sélection HTML pour choisir l'ordre souhaité. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
 
 <br>
 
