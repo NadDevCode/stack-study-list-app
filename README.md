@@ -13,7 +13,7 @@ StackStudyList est une application Web dédiée à la gestion de tâches (to-do 
 <br>
 
 <p align="center">
-<img width="1000px" height="400px" src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWZrdXVlcTkwZHZybm01bDhrMGZsZm0zcHAzZ3FrMDIwbHRpNWFtNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y6PEmxChXwKpyWF7th/giphy-downsized.gif'  alt="Démonstration extension navigateur Who">
+<img width="1000px" height="400px" src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpvaW5ta2VmcXUxNTBvdTI2amxzM3Rna253djZkbXVvd3VrMHBoMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vo3J79cu9wuj3UuSca/giphy.gif'  alt="Démonstration extension navigateur Who">
 </p>
 <br>
 
