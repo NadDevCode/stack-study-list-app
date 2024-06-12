@@ -10,7 +10,11 @@ StackStudyList est une application Web dédiée à la gestion de tâches (to-do 
     En cours de développement
     <img align="center" width="50px" src='https://drive.google.com/uc?export=view&id=1QsKPEaudgrP9IfOmqznXZfAb9mQZKMF0' alt="Cone de chantier">
 </h2>
+<br>
 
+<p align="center">
+<img width="1000px" height="400px" src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWZrdXVlcTkwZHZybm01bDhrMGZsZm0zcHAzZ3FrMDIwbHRpNWFtNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y6PEmxChXwKpyWF7th/giphy-downsized.gif'  alt="Démonstration extension navigateur Who">
+</p>
 <br>
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
@@ -45,9 +49,6 @@ StackStudyList est une application Web dédiée à la gestion de tâches (to-do 
 
 - Stocker les données des tâches dans le local storage du navigateur pour assurer leur persistance. <img width="25px" src='https://drive.google.com/uc?export=view&id=1fwqYA-hjZIqPA4EzMjAlk_hO17wVp-QQ' alt="Pouce en l'aire">
 
-<br>
-
-**Mise en place d'un back-end et connexion du projet à une base de données** <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
@@ -56,6 +57,9 @@ StackStudyList est une application Web dédiée à la gestion de tâches (to-do 
 **Affichage des cartes de tâches par filtre :**
 
 - Cette fonctionnalité permettra d'afficher les cartes de tâches en fonction de différents critères,<br>tels que le langage ou le type de stack. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
+<br>
+
+**Mise en place d'un back-end et connexion du projet à une base de données** <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
 
 <br>
 
