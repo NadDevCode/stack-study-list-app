@@ -8,13 +8,15 @@ export default function TechnoAdd(props) {
   });
   
   const { handleAddTechno } = props
-  
+
+  // gestion de la soumission du formulaire
   function handleSubmit(evt) {
     evt.preventDefault();
     if(techno.technoname === '' || techno.technocategory === '' || techno.technodescription ==='') { 
       alert("Remplisez tout les champs")
     } else {
       handleAddTechno(techno);
+      // Réinitialisation de l'état de techno après l'ajout
       setTechno({
         technoname: '',
         technocategory: '',
@@ -23,6 +25,7 @@ export default function TechnoAdd(props) {
     }
   }
 
+  // Gére les changements de valeur des inputs
   function handleChange(evt) {
     const { name, value } = evt.target;
     setTechno({...techno, [name]: value})
@@ -30,21 +33,21 @@ export default function TechnoAdd(props) {
 
     return (
         <div className="techno-add">
-        <h1>Add a Techno</h1>
+        <h1>Ajoutez votre techno</h1>
         <div>
             <form onSubmit={(evt) => handleSubmit(evt)}> 
-            <label htmlFor="technoname">Name:</label>
+            <label htmlFor="technoname">Nom:</label>
             <br />
             <input type="text" name="technoname" id="technoname" value={techno.technoname} onChange={(evt) => handleChange(evt)} />
             <br />
-            <label htmlFor="technocategory">Category:</label>
+            <label htmlFor="technocategory">Categorie:</label>
             <br />
             <select name="technocategory" id="technocategory" value={techno.technocategory} onChange={(evt) => handleChange(evt)}>
-                <option value="">Select a category</option>
+                <option value="">Choisissez une catégorie</option>
                 <option value="front">Front</option>
                 <option value="back">Back</option>
                 <option value="fullstack">Fullstack</option>
-                <option value="other">Other</option>
+                <option value="other">Autre</option>
           </select>
           <br />
           <label htmlFor="technodescription">Description:</label>

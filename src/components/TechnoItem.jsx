@@ -2,6 +2,8 @@ export default function TechnoItem(props) {
 
     const { techno, handleDeleteTechno } = props;
 
+    // Crée une card avec un bouton de suppression
+    // La card comprend un id, le nom de la techno, sa catégorie et une description de la tâche      
     return (
         <div key={techno.technoid} className = "card">
             <h2>{techno.technoname}</h2>
