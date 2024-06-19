@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# stackStudyList
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+StackStudyList est une application Web dédiée à la gestion de tâches (to-do list), conçue pour faciliter l'organisation de l'apprentissage des divers langages de programmation.
 
-## Available Scripts
+<br>
+<br>
 
-In the project directory, you can run:
+<h2 align="center">
+    <img align="center" width="50px" src='https://drive.google.com/uc?export=view&id=1QsKPEaudgrP9IfOmqznXZfAb9mQZKMF0' alt="Cone de chantier">
+    En cours de développement
+    <img align="center" width="50px" src='https://drive.google.com/uc?export=view&id=1QsKPEaudgrP9IfOmqznXZfAb9mQZKMF0' alt="Cone de chantier">
+</h2>
+<br>
 
-### `npm start`
+<p align="center">
+<img width="1000px" height="400px" src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpvaW5ta2VmcXUxNTBvdTI2amxzM3Rna253djZkbXVvd3VrMHBoMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vo3J79cu9wuj3UuSca/giphy.gif'  alt="Pluie de 1 et de 0">
+</p>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## MVP
 
-### `npm test`
+**Conception d'un formulaire de saisie de tâches :** 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Ajouter un champ pour saisir le nom de la stack associée à la tâche, comme "JavaScript", "Python" ou "Java". <img width="25px" src='https://drive.google.com/uc?export=view&id=1fwqYA-hjZIqPA4EzMjAlk_hO17wVp-QQ' alt="Pouce en l'aire">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Ajouter un champ pour définir le type de stack, comme "Frontend", "Backend" ou "Fullstack". <img width="25px" src='https://drive.google.com/uc?export=view&id=1fwqYA-hjZIqPA4EzMjAlk_hO17wVp-QQ' alt="Pouce en l'aire">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Ajouter un champ pour décrire la tâche en détail, offrant une vue d'ensemble claire et précise de ce qui doit être accompli. <img width="25px" src='https://drive.google.com/uc?export=view&id=1fwqYA-hjZIqPA4EzMjAlk_hO17wVp-QQ' alt="Pouce en l'aire">
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Développement d'une page d'affichage des tâches :**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Créer une page pour afficher toutes les tâches saisies sous forme de cartes. <img width="25px" src='https://drive.google.com/uc?export=view&id=1fwqYA-hjZIqPA4EzMjAlk_hO17wVp-QQ' alt="Pouce en l'aire">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  
+- Chaque carte représentera une tâche spécifique et contiendra les détails de la tâche, tels que le nom de la stack, le type de stack et la description. <img width="25px" src='https://drive.google.com/uc?export=view&id=1fwqYA-hjZIqPA4EzMjAlk_hO17wVp-QQ' alt="Pouce en l'aire">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  
+- Permettre aux utilisateurs de supprimer une carte une fois que la tâche associée a été réalisée. <img width="25px" src='https://drive.google.com/uc?export=view&id=1fwqYA-hjZIqPA4EzMjAlk_hO17wVp-QQ' alt="Pouce en l'aire">
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Implémentation du stockage des données en local storage :**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Stocker les données des tâches dans le local storage du navigateur pour assurer leur persistance. <img width="25px" src='https://drive.google.com/uc?export=view&id=1fwqYA-hjZIqPA4EzMjAlk_hO17wVp-QQ' alt="Pouce en l'aire">
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
-### Analyzing the Bundle Size
+## Fonctionnalités à venir
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Affichage des cartes de tâches par filtre :**
 
-### Making a Progressive Web App
+- Cette fonctionnalité permettra d'afficher les cartes de tâches en fonction de différents critères,<br>tels que le langage ou le type de stack. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Mise en place d'un back-end et connexion du projet à une base de données** <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
 
-### Advanced Configuration
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Ajout d'un système de recherche :**
 
-### Deployment
+- Cette fonctionnalité permettra aux utilisateurs de rechercher des tâches spécifiques<br>en fonction de mots-clés. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
 
-### `npm run build` fails to minify
+**Modification de l'ordre des cartes par un élément HTML 'select' ou en utilisant le drag-and-drop :**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Les utilisateurs pourront réorganiser les cartes de tâches en les déplaçant manuellement ou en utilisant un élément de sélection HTML pour choisir l'ordre souhaité. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
+
+<br>
+
+**Création de différents styles graphiques de la to-do list :**
+
+- Cette fonctionnalité permettra aux utilisateurs de personnaliser l'apparence de leur liste de tâches en choisissant parmi différents thèmes ou styles graphiques. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
+
+<br>
+
+**Création d'un panel boite à outils :**
+
+- Cette fonctionnalité offrira aux utilisateurs des outils supplémentaires pour les aider à gérer et à réaliser leurs tâches, tels qu'un outil de dessin ou une calculatrice. <img align="center" width="80px" src='https://drive.google.com/uc?export=view&id=1vg4BLwE2wh6F2UGTJK6exRU-ydiGjwhC' alt="icone chargement">
