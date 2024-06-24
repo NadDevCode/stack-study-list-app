@@ -78,3 +78,23 @@ StackStudyList est une application Web dédiée à la gestion de tâches (to-do 
 :white_large_square: **Création d'un panel boite à outils :**
 
 - Cette fonctionnalité offrira aux utilisateurs des outils supplémentaires pour les aider à gérer et à réaliser leurs tâches, tels qu'un outil de dessin ou une calculatrice.
+
+  <br />
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
+
+## Technos
+
+<p align="center">
+  <a href="https://fr.react.dev/" target="_blank" rel="noreferrer">
+    <img width="75px" src="https://skillicons.dev/icons?i=react" title="React" alt="Logo React"/>
+  </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" rel="noreferrer">
+    <img width="75px" src="https://skillicons.dev/icons?i=html" title="HTML" alt="Logo HTML"/>
+  </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank" rel="noreferrer">
+    <img width="75px" src="https://skillicons.dev/icons?i=css" title="CSS" alt="Logo CSS"/>
+  </a>
+</p>
